@@ -253,7 +253,7 @@ const getAllEligibleProblems = async (startFrom, doSkipped = false) => {
 }
 
 // getAllEligibleProblems();
-getAllEligibleProblems(64407, true);
+// getAllEligibleProblems(64407, true);
 
 // const data1 = JSON.parse(fs.readFileSync('./checkpoints/checkpoint_46014.json'));
 // const data2 = JSON.parse(fs.readFileSync('./checkpoints/checkpoint_48814.json'));
@@ -264,7 +264,7 @@ getAllEligibleProblems(64407, true);
 
 // DONT run this again.. it was already populated on 26th sep,2023
 // populateAllActiveUsers();
-
+getAllEligibleProblems();
 
 
 
